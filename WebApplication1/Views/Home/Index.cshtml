@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Luxe Diamond Jewelers</h1>
+    <p class="lead">For over 10 years, Luxe Diamond Jewelers has been one of the most trusted names in jewelry in the Canada region. .</p>
+    <p><a href="~/Home/Details1" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        
+        <h2>Rings</h2>
+        <p>
+            We are a well-established jewelry store that has grown with our community from a small
+            store to a multiple brand jewelry retailer. We have served generations of families as their
+            trusted jeweler for brilliant diamonds, beautiful fine jewelry, treasured gifts, custom made
+            styles and expert jewelry repairs. Luxe Diamond Jewelers is committed to make every customer "feel at home" with our personalized service and our classic to cutting edge jewelry designs. Our years of experience and services have built a legacy of integrity and trust with our customers.
+        </p>
+        <p><a class="btn btn-default" onclick="location.href='@Url.Action("Details1", "Home")/1'">See Rings &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Bracelets</h2>
+        <p>When you buy from us, you will get good advice from a professional, someone who eats, breathes and sleeps jewelry.</p>
+        <p><a class="btn btn-default" onclick="location.href='@Url.Action("Details1", "Home")/2'">See Bracelets &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Earrings</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" onclick="location.href='@Url.Action("Details1", "Home")/3'">See earrings &raquo;</a></p>
+    </div>
+</div>
